@@ -1,0 +1,28 @@
+{
+	"name": "@lorenstuff/npm-square-api",
+	"version": "1.0.0",
+	"description": "A package for interacting with the Square API.",
+	"homepage": "https://github.com/duckdotapk/npm-square-api",
+	"main": "./lib/index.js",
+	"scripts": {
+		"build": "npx rimraf lib && npx tsc",
+		"prepublishOnly": "npm run build"
+	},
+	"keywords": [
+		"square",
+		"api",
+		"money",
+		"gift",
+		"cards"
+	],
+	"author": "Loren Goodwin",
+	"license": "MIT",
+	"type": "module",
+	"dependencies": {
+		"@types/node": "^20.11.0"
+	},
+	"devDependencies": {
+		"rimraf": "^5.0.5",
+		"typescript": "^5.3.3"
+	}
+}
