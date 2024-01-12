@@ -58,7 +58,7 @@ These tables detail which APIs are supported:
 | Customer segments          | No        | -                   |			
 | Loyalty                    | No        | -                   |
 | Gift cards                 | Yes       | Yes                 |
-| Gift card activities       | No        | No                  |
+| Gift card activities       | Yes       | Yes                 |
 
 ### Staff
 
